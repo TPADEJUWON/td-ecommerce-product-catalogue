@@ -382,9 +382,9 @@ footer .newsletter .input_card button {
   }
 }
 @media (min-width: 768px) {
-  /*.hamburger {
+  .hide {
     display: none;
-  }*/
+  }
   .card_row {
     display: flex;
     flex-wrap: wrap;
@@ -400,6 +400,10 @@ footer .newsletter .input_card button {
   }
 }
 @media (min-width: 1024px) {
+  .hide {
+    display: flex;
+    cursor: pointer;
+  }
   .card_row {
     display: flex;
     flex-wrap: wrap;
